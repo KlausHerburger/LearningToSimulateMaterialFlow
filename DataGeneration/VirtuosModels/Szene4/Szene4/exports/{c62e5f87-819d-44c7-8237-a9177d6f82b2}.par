@@ -1,0 +1,14 @@
+/*********************************************************/
+// {c62e5f87-819d-44c7-8237-a9177d6f82b2}.par
+// Erstellt am 22.09.2021 , 09:42
+// von VirtuosM v2.5.15
+/*********************************************************/
+ReferencingSettings.BodyId = 0;
+ReferencingSettings.ObjectId = 0;
+ReferencingSettings.UseEndPoint = 0;
+ReferencingSettings.UsePivotPoint = 0;
+ReferencingSettings.UseLocalCoordinateSystem = 0;
+MovementSettings.ForceMovementInCaseOfCollisions = 0;
+LoadPersistentData = 1; //
+DeviceProperties.InitiallyPoweredOn = 1;
+DeviceProperties.Trigger = 4;

@@ -1,0 +1,17 @@
+/*********************************************************/
+// {376f2350-2860-4693-8db5-1b99924ec7fb}.par
+// Erstellt am 22.09.2021 , 09:42
+// von VirtuosM v2.5.15
+/*********************************************************/
+Position_RelativeToWorld.X_m = 1.035;
+Position_RelativeToWorld.Y_m = 6.04;
+Position_RelativeToWorld.Z_m = 0.2;
+Rotation_RelativeToWorld.RotationAxis.X = 0;
+Rotation_RelativeToWorld.RotationAxis.Y = 0;
+Rotation_RelativeToWorld.RotationAxis.Z = 1;
+Rotation_RelativeToWorld.RotationAngle_deg = 0;
+Geometry.Length_m = 0.02;
+Geometry.Width_m = 6.1;
+Geometry.Height_m = 0.2;
+PhysicalProperties.VelocityDependentFriction = 0.5;
+MaterialMovementBehavior.StopMaterialRotation = 0;

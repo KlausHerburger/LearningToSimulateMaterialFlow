@@ -1,0 +1,8 @@
+/*********************************************************/
+// {1a72bed3-9e81-44df-bcb8-b0eceb1a98e3}.par
+// Erstellt am 22.09.2021 , 11:21
+// von VirtuosM v2.5.15
+/*********************************************************/
+Global_Initial_Ground_Position  = 0.5 0 0.2; //
+Global_Initial_Ground_RotAxis   = 1 0 0; //
+Global_Initial_Ground_RotAngle  = 0; //

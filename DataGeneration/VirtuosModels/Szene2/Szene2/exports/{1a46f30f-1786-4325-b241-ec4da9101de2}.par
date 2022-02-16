@@ -1,0 +1,22 @@
+/*********************************************************/
+// {1a46f30f-1786-4325-b241-ec4da9101de2}.par
+// Erstellt am 26.09.2021 , 09:56
+// von VirtuosM v2.5.15
+/*********************************************************/
+TypeId = 1; //
+CylindricalShapedRange.Radius_m = 0.05;
+CylindricalShapedRange.Height_m = 0.4;
+CylindricalShapedRange.NumberOfSlices = 10;
+PhysicalProperties.VelocityDependentFriction = 0.5;
+MaximumNumberOfPossibleMaterial = (192); //
+SettingsForCadGeometry.Visualization = 0;
+SettingsForCadGeometry.NumericalSuffixOfCadBody = 1;
+SettingsForCadGeometry.ColorMode = 0;
+SettingsForMaterialRemoval.SimulateMaterialRemoval = 0;
+SettingsForMaterialRemoval.MachinedSurfaceColorMode = 1;
+SettingsForMaterialRemoval.MachinedSurfaceColor.Red = 0;
+SettingsForMaterialRemoval.MachinedSurfaceColor.Green = 159;
+SettingsForMaterialRemoval.MachinedSurfaceColor.Blue = 214;
+SettingsForMaterialRemoval.MachinedSurfaceColor.Alpha = 255;
+SettingsForMaterialRemoval.Resolution = 0.01;
+SettingsForMaterialRemoval.CuttingHistory = 0;
