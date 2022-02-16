@@ -1,0 +1,61 @@
+<?xml version='1.0'?><!DOCTYPE EchtvisProjectFile>
+<EvConfig branchName="virtuos_v_2_5" version="2.5.15">
+    <MainWnd height="837" maximized="1" posx="-8" posy="-8" width="1600"/>
+    <Object name="Szene1" treeViewPath="" type="EvAssemblerObjectV2">
+        <EvAssemblerObject/>
+    </Object>
+    <ActiveModel uuid="{688c881c-8fa4-4b3c-a001-7ba7cc619891}"/>
+    <MiniView height="101" name="[Main].[Mikro_physicbased].[4y]" posx="1127" posy="362" type="4" uuid="{1a4f345b-17e0-483b-a358-2c9c854c1860}" width="255"/>
+    <MiniView height="101" name="[Main].[Mikro_physicbased].[Demultiplexer-3].[y]" posx="1124" posy="470" type="4" uuid="{c5eccad6-843f-4439-af98-096cfd0bf417}" width="255"/>
+    <MiniView height="101" name="[Main].[Mikro_physicbased].[Demultiplexer-2].[y]" posx="1240" posy="184" type="4" uuid="{ac2f228c-a257-4d03-a816-c1c8c7579546}" width="255"/>
+    <MiniView height="101" name="[Main].[Mikro_physicbased].[Demultiplexer-1].[y]" posx="979" posy="104" type="4" uuid="{a3b5bdfb-364b-4782-bfdb-ba124eeb6389}" width="255"/>
+    <MiniView height="101" name="[Main].[Mikro_physicbased].[Demultiplexer-1].[x]" posx="1211" posy="415" type="4" uuid="{b4c2434a-7779-419f-aeae-17f105fe77d3}" width="255"/>
+    <MiniInput forced="1" height="215" inputType="Slider" maxSliderValue="1" minSliderValue="0" name="[Main].[Mikro_physicbased].[go]" posx="126" posy="601" pushButtonDownValue="1" pushButtonUpValue="0" retainForced="1" switchOffValue="0" switchOn="1" switchOnValue="1" type="4" uuid="{276f351d-e7f9-4374-a84c-174dd6dcb260}" value="1" width="220"/>
+    <CorbaServer enableFilterByCorbaEnabled="0" ip="127.0.0.1" objectName="Visualization" port="54335" setDataBuffering="0" setMaxFifoSize="10000" startNamingService="1" startSettings="StartWithApplication"/>
+
+<CommunicationSettings>
+    <CommunicationInterface uuid="{688c881c-8fa4-4b3c-a001-7ba7cc619891}">
+        <Property name="modelDescriptionFile" type="VString">C:/Users/klaus/OneDrive/Uni/Bachelorarbeit/Code/ba_klaus_herburger_data_generator/VirtuosModels/Szene1/Szene1/exports/Main.mod</Property>
+        <Property name="modelConnectionId" type="VString">{6172f2ff-10ab-49e8-8b1b-0a2b50a149ee}</Property>
+        <Property name="connectionType" type="VInt32">1</Property>
+        <Property name="OutputRate" type="VInt32">1</Property>
+        <Property name="OutputBuffer" type="VInt32">5000</Property>
+        <Property name="InputBuffer" type="VInt32">2000</Property>
+        <Property name="FieldContainerOutputBuffer" type="VInt32">10000</Property>
+        <Property name="FieldContainerSerializationBuffer" type="VInt32">5000</Property>
+        <Property name="Timeout" type="VInt32">200</Property>
+        <Property name="ServerIP" type="VString">127.0.0.1</Property>
+        <Property name="ServerPort" type="VInt32">58123</Property>
+        <Property name="KernelMemory" type="VUInt32">2097152</Property>
+        <Property name="SolverIsRunning" type="VBoolean">false</Property>
+    </CommunicationInterface>
+</CommunicationSettings>
+<ExternalProcesses>
+    <ExternalProcess name="NewProcess">
+        <Property name="objectName" type="VString">ProcessProperties</Property>
+        <Property name="platform" type="VInt32">0</Property>
+        <Property name="platformName" type="VString">WIN</Property>
+        <Property name="name" type="VString">NewProcess</Property>
+        <Property name="processFileName" type="VCore::VFileDescription">../../../../KlausHerburger/Materialflussmodell/Materialflussmodell</Property>
+        <Property name="arguments" type="VString"></Property>
+        <Property name="startSemaporeName" type="VString"></Property>
+        <Property name="stopSemaporeName" type="VString"></Property>
+        <Property name="hidden" type="VBoolean">false</Property>
+        <Property name="teminateIfPresent" type="VBoolean">false</Property>
+        <Property name="textStarting" type="VString"></Property>
+        <Property name="textStopping" type="VString"></Property>
+        <Property name="enabled" type="VBoolean">true</Property>
+        <Property name="waitUntilFinished" type="VBoolean">false</Property>
+        <Property name="waitTimeBeforeStart" type="VInt32">0</Property>
+        <Property name="waitTimeoutStarted" type="VInt32">10000</Property>
+        <Property name="waitTimeoutFinished" type="VInt32">10000</Property>
+        <Property name="waitTimeoutStop" type="VInt32">10000</Property>
+        <Property name="modelToConnect" type="VString">$(MASTER_MODEL)</Property>
+        <Property name="modelConnectionID" type="VString">{6172f2ff-10ab-49e8-8b1b-0a2b50a149ee}</Property>
+    </ExternalProcess>
+</ExternalProcesses>    <WorkspaceWindowSettings active="0" docked="1" frameless="0" height="-1" heightdocked="480" modelUuid="{37bfc178-0e44-4ea7-b5ae-ee7247d8bea7}" screen0height="900" screen0width="1600" screen0x="0" screen0y="0" screenActive="0" screenPrimary="0" screencount="1" showInWorkspace="1" width="-1" widthdocked="640" windowState="HIDDEN" x="0" xdocked="0" y="0" ydocked="0"/>
+    <WorkspaceWindowSettings active="0" docked="1" frameless="0" height="-1" heightdocked="480" modelUuid="{d766287f-c615-468f-b948-bb19bc0c4f6b}" screen0height="900" screen0width="1600" screen0x="0" screen0y="0" screenActive="0" screenPrimary="0" screencount="1" showInWorkspace="1" width="-1" widthdocked="640" windowState="HIDDEN" x="0" xdocked="0" y="0" ydocked="0"/>
+    <WorkspaceWindowSettings active="0" docked="1" frameless="0" height="-1" heightdocked="480" modelUuid="{d2ed3662-1fdd-4929-8d49-64baaeb77c61}" screen0height="900" screen0width="1600" screen0x="0" screen0y="0" screenActive="0" screenPrimary="0" screencount="1" showInWorkspace="1" width="-1" widthdocked="640" windowState="HIDDEN" x="0" xdocked="0" y="0" ydocked="0"/>
+    <WorkspaceWindowSettings active="0" docked="1" frameless="0" height="-1" heightdocked="480" modelUuid="{688c881c-8fa4-4b3c-a001-7ba7cc619891}" screen0height="900" screen0width="1600" screen0x="0" screen0y="0" screenActive="0" screenPrimary="0" screencount="1" showInWorkspace="1" width="-1" widthdocked="640" windowState="HIDDEN" x="0" xdocked="0" y="0" ydocked="0"/>
+    <WorkspaceWindowSettings active="1" docked="1" frameless="0" height="-1" heightdocked="480" modelUuid="{40086443-efba-4e37-ad71-a24bac3cbb7c}" screen0height="900" screen0width="1600" screen0x="0" screen0y="0" screenActive="0" screenPrimary="0" screencount="1" showInWorkspace="1" width="-1" widthdocked="640" windowState="TABBED" x="0" xdocked="0" y="0" ydocked="0"/>
+</EvConfig>

@@ -1,0 +1,8 @@
+/*********************************************************/
+// {09ae3c5d-6437-430f-b916-fb83fca2753e}.par
+// Erstellt am 12.09.2021 , 14:01
+// von VirtuosM v2.5.15
+/*********************************************************/
+InitialSpeed_m_s = 0.1; //
+DeviceProperties.InitiallyPoweredOn = 1;
+DeviceProperties.Trigger = 4;

@@ -1,0 +1,29 @@
+/*********************************************************/
+// {536abc28-febe-4068-832d-292196de8307}.par
+// Erstellt am 12.09.2021 , 14:01
+// von VirtuosM v2.5.15
+/*********************************************************/
+InitialTypeIdOfMaterial = 1; //
+ForceMaterialLoading = 0; //
+InitialStackParameters.MaximumNumberOfMaterials_X = 3;
+InitialStackParameters.MaximumNumberOfMaterials_Y = 3;
+InitialStackParameters.MaximumNumberOfMaterials_Z = 1;
+InitialStackParameters.Gap_X_m = 0.3;
+InitialStackParameters.Gap_Y_m = 0.3;
+OffsetOfPositionForLoading_RelativeToElement.X_m = 0;
+OffsetOfPositionForLoading_RelativeToElement.Y_m = 0;
+OffsetOfPositionForLoading_RelativeToElement.Z_m = 0;
+OffsetOfRotationForLoading_RelativeToElement.RotationAxis.X = 0;
+OffsetOfRotationForLoading_RelativeToElement.RotationAxis.Y = 0;
+OffsetOfRotationForLoading_RelativeToElement.RotationAxis.Z = 1;
+OffsetOfRotationForLoading_RelativeToElement.RotationAngle_deg = 0;
+StackAlignmentSettings.X = 1;
+StackAlignmentSettings.Y = 0;
+StackAlignmentSettings.Z = 0;
+StackAlignmentSettings.AlignToBodyId = 1;
+StackAlignmentSettings.AlignToObjectId = 1;
+InitialVelocity.X_m_s = 0;
+InitialVelocity.Y_m_s = 0;
+InitialVelocity.Z_m_s = 0;
+DeviceProperties.InitiallyPoweredOn = 1;
+DeviceProperties.Trigger = 4;
