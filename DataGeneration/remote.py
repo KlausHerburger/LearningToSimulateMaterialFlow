@@ -1,3 +1,5 @@
+"""Remote interface to control Virtuos simulation from python"""
+
 from ctypes import *
 from enum import Enum
 import os
