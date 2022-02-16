@@ -1,3 +1,5 @@
+"""Generates a dataset for a given configuration of Szene 3"""
+
 import remote
 import numpy as np
 from scipy import io
