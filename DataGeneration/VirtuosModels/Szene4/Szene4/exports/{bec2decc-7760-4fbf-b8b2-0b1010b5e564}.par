@@ -1,9 +1,0 @@
-/*********************************************************/
-// {bec2decc-7760-4fbf-b8b2-0b1010b5e564}.par
-// Erstellt am 22.09.2021 , 09:42
-// von VirtuosM v2.5.15
-/*********************************************************/
-LoadPersistentData = 1; //
-DeviceProperties.ElementIndex = 25;
-DeviceProperties.BodyId = 0;
-DeviceProperties.ObjectId = 0;

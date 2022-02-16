@@ -1,9 +1,0 @@
-/*********************************************************/
-// {332d3b65-3d79-4854-b14b-dedf95f2f78d}.par
-// Erstellt am 12.09.2021 , 14:01
-// von VirtuosM v2.5.15
-/*********************************************************/
-InitialTypeIdOfMaterial = 0; //
-InitialUnloadValue = 1; //
-DeviceProperties.InitiallyPoweredOn = 1;
-DeviceProperties.Trigger = 4;
