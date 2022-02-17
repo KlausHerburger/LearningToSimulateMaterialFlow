@@ -52,7 +52,7 @@ The encoder constructs an initial graph <img src="https://latex.codecogs.com/svg
 The processor forwards messages between nodes via the edges. It computes the interactions between nodes over <img src="https://latex.codecogs.com/svg.image?M" title="M" /> steps, where <img src="https://latex.codecogs.com/svg.image?G^{m&plus;1}&space;=&space;GN^{m&plus;1}(G^m)" title="G^{m+1} = GN^{m+1}(G^m)" />. Here <img src="https://latex.codecogs.com/svg.image?GN" title="GN" /> is a Graph Net Block and uses Artificial Neural Networks as internal edge and node update functions. The processor returns the final graph <img src="https://latex.codecogs.com/svg.image?G^M&space;=&space;Processor(G^0)" title="G^M = Processor(G^0)" />. In physics, these interactions correspond to the exchange of energy and momentum between particles.
 The decoder extracts dynamics information from the nodes of the final graph with <img src="https://latex.codecogs.com/svg.image?y_i&space;=&space;\delta_v(G^M)" title="y_i = \delta_v(G^M)" />. Learning <img src="https://latex.codecogs.com/svg.image?\delta_v" title="\delta_v" /> should result in <img src="https://latex.codecogs.com/svg.image?y_i" title="y_i" /> being the velocity to the next time step as relevant dynamics information reflects, so that <img src="https://latex.codecogs.com/svg.image?y_i" title="y_i" /> is semantically meaningful for the update procedure.
 
-## Results
+## Evaluation
   
 <img src="https://user-images.githubusercontent.com/63397065/154442211-96543bc7-4a4c-42cd-a378-fc57eefdf29e.PNG" width="600" /> 
   
