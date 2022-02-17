@@ -4,9 +4,9 @@ In this project a Machine Learning model is trained for learning a simulator for
 <img src="https://user-images.githubusercontent.com/63397065/154328745-03cefaf7-da0b-4547-a6eb-723be35ff510.PNG" width="450" /> 
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/63397065/154323954-2132a131-3dad-4685-b478-ae35638c99bf.gif" width="200" />
-  <img src="https://user-images.githubusercontent.com/63397065/154323543-fd61447a-6090-4ab4-80df-0e62b98c8bb3.gif" width="200" /> 
-  <img src="https://user-images.githubusercontent.com/63397065/154446452-ef8398f6-7d25-4b6d-8787-f83e6b807375.gif" width="264" /> 
+  <img src="https://user-images.githubusercontent.com/63397065/154323954-2132a131-3dad-4685-b478-ae35638c99bf.gif" width="220" />
+  <img src="https://user-images.githubusercontent.com/63397065/154323543-fd61447a-6090-4ab4-80df-0e62b98c8bb3.gif" width="220" /> 
+  <img src="https://user-images.githubusercontent.com/63397065/154446452-ef8398f6-7d25-4b6d-8787-f83e6b807375.gif" width="291" /> 
   
 Based on DeepMind's Graph Nets (Library for building graph networks in Tensorflow and Sonnet https://github.com/deepmind/graph_nets) and their project Learning to Simulate Complex Physics with Graph Networks (https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate)
 
