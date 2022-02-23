@@ -1,4 +1,5 @@
 # LearningToSimulateMaterialFlow
+
 In this project a Machine Learning model is trained for learning a simulator for Material-Flow systems, where the Machine Learning model is based on Graph Neural Networks. The data for training the model is generated using an accurate physicbased simulator.
 
 <img src="https://user-images.githubusercontent.com/63397065/154328745-03cefaf7-da0b-4547-a6eb-723be35ff510.PNG" width="450" /> 
